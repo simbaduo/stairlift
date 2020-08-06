@@ -1,8 +1,12 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import HomePage from './components/HomePage'
 
 const App = () => {
-  return <HelloWorld />
+  return (
+    <>
+      <HomePage />
+    </>
+  )
 }
 
 export default App
